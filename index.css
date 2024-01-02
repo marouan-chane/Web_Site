@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+section{
+    position: relative;
+    width: 80%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-size: cover;
+    background-position: center;
+    width:auto;
+    margin:60px 100px;
+}
+header{
+    position: relative;
+    background-color: rgb(127, 146, 255);
+    top: 0;
+    width: 80%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+header .navigation a{
+    color: rgb(249, 250, 250);
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+header .navigation a:hover{
+    background: rgb(0, 195, 255);
+
+}
+.content{
+    justify-content: center;
+    width: 92%;
+    height: 1000px;
+    padding: 40px 100px;
+    background-size:cover;
+}
+.content .info h2{
+    color: #226AB0;
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+.content .info p{
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: center;
+    color: #4c4848;
+    margin-bottom: 40px;
+}
+
+.media_icons{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000111;
+    padding: 30px 100px;
+    width: 92%;
+    
+}
+.media_icons i{
+    color: #ffffff;
+    margin: 20px;
+    font-size: 25px;
+    
+}
+.media_icons a{
+    position: relative;
+    font-size: 25px;
+}
+.media_icons a:hover{
+    background: #226AB0;
+}
+
+.slider{
+    position: relative;
+    background: #000116;
+    width: 800px;
+    min-height: 500px;
+    margin: 20px;
+    margin-left: 70px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .slider .slide{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(0% at 0 50%);
+  }
+  
+  .slider .slide.active{
+    clip-path: circle(150% at 0 50%);
+    transition: 2s;
+  }
+  
+  .slider .slide img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .slider .slide .info1{
+    position: absolute;
+    color: #222;
+    background: rgba(255, 255, 255, 0.3);
+    width: 75%;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 5%);
+  }
+  
+  .slider .slide .info1 h2{
+    font-size: 2em;
+    font-weight: 800;
+  }
+  
+  .slider .slide .info1 p{
+    font-size: 1em;
+    font-weight: 400;
+  }
+  
+  .navigation1{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .slider:hover .navigation1{
+    opacity: 1;
+  }
+  
+  .prev-btn, .next-btn{
+    z-index: 999;
+    font-size: 2em;
+    color: #222;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .prev-btn{
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+  
+  .next-btn{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+  
+  .navigation1-visibility{
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navigation1-visibility .slide-icon{
+    z-index: 999;
+    background: rgba(255, 255, 255, 0.5);
+    width: 20px;
+    height: 10px;
+    transform: translateY(-50px);
+    margin: 0 6px;
+    border-radius: 2px;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
+  }
+  
+  .navigation1-visibility .slide-icon.active{
+    background: #4285F4;
+  }
+  
+  @media (max-width: 900px){
+    .slider{
+      width: 100%;
+    }
+  
+    .slider .slide .info1{
+      position: relative;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  @media (max-width: 500px){
+    .slider .slide .info1 h2{
+      font-size: 1.8em;
+      line-height: 40px;
+    }
+  
+    .slider .slide .info1 p{
+      font-size: 0.9em;
+    }
+  }
+header .imgLOGO img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.info img{
+    width: 40px;
+    height: 40px;
+}
