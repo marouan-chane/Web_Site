@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title></title>
+  </head>
+  <body>
+    <section>
+      
+      <header>
+        <div class="imgLOGO"><img src="LOGO.png" alt="" ></div>
+        <div class="navigation">
+            <a href="Home_page.html">Home</a>
+            <a href="Services_page.html">Sevices</a>
+            <a href="#">About us</a>
+            <a href="#">Contact us</a>
+        </div>
+      </header>
+
+      <div class ="Services_Section">
+        <div class="Service_panel_1">
+            <a href="#" id ="Service_Title_1" onclick="myFunction()"> Web Developement</a>
+            <div class="Service_content" id="content">
+                <p>this Service allows the client to chose an comunicate its adeas with our team Developement</p>
+            </div>
+        </div>
+        <div class="Service_panel_2">
+            <a href="#" id ="Service_Title_2"> Mobile Application Developement</a>
+        </div>
+        <div class="Service_panel_3">
+            <a href="#" id ="Service_Title_3"> Desktop Application Developement</a>
+        </div>
+      </div>
+    
+    </section>
+    <div class="media_icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/marouan-chane-317003216/"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+    <script type="text/javascript">        
+       
+        function myFunction(){
+          var Content_1 = document.getElementById("content");
+        if (Content_1.style.display == "none"){
+          Content_1.style.display = "block";
+        }
+        else{
+          Content_1.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -231,3 +231,22 @@ header .imgLOGO img{
     width: 40px;
     height: 40px;
 }
+.Service_panel_1, .Service_panel_2, .Service_panel_3{
+  padding: auto;
+  background-color: #226AB0;
+  width: 40%;
+  margin-top: 7px;
+  border:20px;
+  text-decoration: none;
+}
+.Services_Section {
+  margin: 30px;
+}
+.Services_Section a{
+  text-decoration: none;
+  color: rgb(249, 250, 250);
+  font-size: 12px;
+}
+.Service_content{
+  display: none;
+}
