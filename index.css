@@ -93,7 +93,7 @@ header .navigation a:hover{
     background: #226AB0;
 }
 
-.slider{
+.slider, .slider_1{
     position: relative;
     background: #000116;
     width: 800px;
@@ -104,26 +104,26 @@ header .navigation a:hover{
     border-radius: 10px;
   }
   
-  .slider .slide{
+  .slider, .slider_1 .slide{
     position: absolute;
     width: 100%;
     height: 100%;
     clip-path: circle(0% at 0 50%);
   }
   
-  .slider .slide.active{
+  .slider, .slider_1 .slide.active{
     clip-path: circle(150% at 0 50%);
     transition: 2s;
   }
   
-  .slider .slide img{
+  .slider, .slider_1 .slide img{
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
   
-  .slider .slide .info1{
+  .slider, .slider_1 .slide .info1{
     position: absolute;
     color: #222;
     background: rgba(255, 255, 255, 0.3);
@@ -135,12 +135,12 @@ header .navigation a:hover{
     box-shadow: 0 5px 25px rgb(1 1 1 / 5%);
   }
   
-  .slider .slide .info1 h2{
+  .slider, .slider_1 .slide .info1 h2{
     font-size: 2em;
     font-weight: 800;
   }
   
-  .slider .slide .info1 p{
+  .slider, .slider_1 .slide .info1 p{
     font-size: 1em;
     font-weight: 400;
   }
@@ -154,7 +154,7 @@ header .navigation a:hover{
     transition: opacity 0.5s ease;
   }
   
-  .slider:hover .navigation1{
+  .slider, .slider_1:hover .navigation1{
     opacity: 1;
   }
   
@@ -199,11 +199,11 @@ header .navigation a:hover{
   }
   
   @media (max-width: 900px){
-    .slider{
+    .slider, .slider_1, .slider_1{
       width: 100%;
     }
   
-    .slider .slide .info1{
+    .slider, .slider_1 .slide .info1{
       position: relative;
       width: 80%;
       margin-left: auto;
@@ -212,12 +212,12 @@ header .navigation a:hover{
   }
   
   @media (max-width: 500px){
-    .slider .slide .info1 h2{
+    .slider, .slider_1 .slide .info1 h2{
       font-size: 1.8em;
       line-height: 40px;
     }
   
-    .slider .slide .info1 p{
+    .slider, .slider_1 .slide .info1 p{
       font-size: 0.9em;
     }
   }
@@ -233,7 +233,7 @@ header .imgLOGO img{
 .Service_panel_1, .Service_panel_2, .Service_panel_3{
   padding: auto;
   background-color: #226AB0;
-  width: 40%;
+  width: 70%;
   height: 20%;
   margin-top: 7px;
   border:20px;
@@ -263,7 +263,19 @@ header .imgLOGO img{
 }
 .Service_content p{
   margin-left: 5px;
+  margin-right: 5px;
   font-size: 14px;
   font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
 
+}
+.slider_1{
+  position: relative;
+  background: #000116;
+  width: 800px;
+  min-height: 500px;
+  margin: 20px;
+  margin-left: 150px;
+  overflow: hidden;
+  border-radius: 10px;
 }
