@@ -6,7 +6,6 @@
 }
 section{
     position: relative;
-    width: 80%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -14,7 +13,7 @@ section{
     background-size: cover;
     background-position: center;
     width:auto;
-    margin:60px 100px;
+    margin:20px 100px;
 }
 header{
     position: relative;
@@ -235,18 +234,36 @@ header .imgLOGO img{
   padding: auto;
   background-color: #226AB0;
   width: 40%;
+  height: 20%;
   margin-top: 7px;
   border:20px;
   text-decoration: none;
+
 }
 .Services_Section {
-  margin: 30px;
+  margin-top: 30px;
+  width: 80%;
+  padding: 30px 100px;
+  background-color: rgb(178, 183, 185);
 }
 .Services_Section a{
   text-decoration: none;
   color: rgb(249, 250, 250);
-  font-size: 12px;
+  font-size: 13px;
+  margin-left: 5px;
+  letter-spacing: 2px;
+  font-family: "Times New Roman", Times, serif;
 }
-#content{
+#content_1,#content_2,#content_3{
   display: none;
+}
+.Service_content{
+  background-color: rgb(249, 250, 250);
+
+}
+.Service_content p{
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: 400;
+
 }

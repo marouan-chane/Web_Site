@@ -23,16 +23,22 @@
 
       <div class ="Services_Section">
         <div class="Service_panel_1">
-            <a href="#" id ="Service_Title_1" onclick="myFunction()"> Web Developement</a>
-            <div class="Service_content" id="content">
+            <a href="#" id ="Service_Title_1" onclick="Sh_Hid_S1()"> Web Developement</a>
+            <div class="Service_content" id="content_1">
                 <p>this Service allows the client to chose an comunicate its adeas with our team Developement</p>
             </div>
         </div>
         <div class="Service_panel_2">
-            <a href="#" id ="Service_Title_2"> Mobile Application Developement</a>
+            <a href="#" id ="Service_Title_2" onclick="Sh_Hid_S2()"> Mobile Application Developement</a>
+            <div class="Service_content" id="content_2">
+                <p>this Service allows the client to chose an comunicate its adeas with our team Developement</p>
+            </div>
         </div>
         <div class="Service_panel_3">
-            <a href="#" id ="Service_Title_3"> Desktop Application Developement</a>
+            <a href="#" id ="Service_Title_3" onclick="Sh_Hid_S3()"> Desktop Application Developement</a>
+            <div class="Service_content" id="content_3">
+              <p>this Service allows the client to chose an comunicate its adeas with our team Developement</p>
+          </div>
         </div>
       </div>
     
@@ -46,14 +52,44 @@
     </div>
     <script type="text/javascript">        
        
-        function myFunction(){
-          var Content_1 = document.getElementById("content");
+        function Sh_Hid_S1(){
+          var Content = document.getElementById("content_1");
+          var Title = document.getElementById("Service_Title_1");
           
-        if (Content_1.style.display == "block"){
-          Content_1.style.display = "none";
+        if (Content.style.display == "block"){
+          Content.style.display = "none";
+          Title.style.fontWeight = "normal";
+          
         }
         else{
-          Content_1.style.display = "block";
+          Content.style.display = "block";
+          Title.style.fontWeight = "bold";
+        }
+      }
+      function Sh_Hid_S2(){
+          var Content = document.getElementById("content_2");
+          var Title = document.getElementById("Service_Title_2");
+          
+        if (Content.style.display == "block"){
+          Content.style.display = "none";
+          Title.style.fontWeight = "normal";
+        }
+        else{
+          Content.style.display = "block";
+          Title.style.fontWeight = "bold";
+        }
+      }
+      function Sh_Hid_S3(){
+          var Content = document.getElementById("content_3");
+          var Title = document.getElementById("Service_Title_3");
+          
+        if (Content.style.display == "block"){
+          Content.style.display = "none";
+          Title.style.fontWeight = "normal";
+        }
+        else{
+          Content.style.display = "block";
+          Title.style.fontWeight = "bold";
         }
       }
     </script>
