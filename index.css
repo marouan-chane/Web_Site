@@ -233,7 +233,7 @@ header .imgLOGO img{
 .Service_panel_1, .Service_panel_2, .Service_panel_3{
   padding: auto;
   background-color: #226AB0;
-  width: 40%;
+  width: 70%;
   height: 20%;
   margin-top: 7px;
   border:20px;
@@ -263,7 +263,9 @@ header .imgLOGO img{
 }
 .Service_content p{
   margin-left: 5px;
+  margin-right: 5px;
   font-size: 14px;
   font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
 
 }
