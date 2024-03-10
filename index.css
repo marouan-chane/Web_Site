@@ -269,3 +269,13 @@ header .imgLOGO img{
   font-family: "Times New Roman", Times, serif;
 
 }
+.View_Projetcs{
+  position: relative;
+  margin-top: 30px;
+  margin-left:  480px;
+
+}
+.View_container{
+  position: relative;
+  margin-left:  100px;
+}
