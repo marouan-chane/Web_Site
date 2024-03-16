@@ -93,7 +93,7 @@ header .navigation a:hover{
     background: #226AB0;
 }
 
-.slider, .slider_1{
+.slider{
     position: relative;
     background: #000116;
     width: 800px;
@@ -104,26 +104,26 @@ header .navigation a:hover{
     border-radius: 10px;
   }
   
-  .slider, .slider_1 .slide{
+  .slider .slide{
     position: absolute;
     width: 100%;
     height: 100%;
     clip-path: circle(0% at 0 50%);
   }
   
-  .slider, .slider_1 .slide.active{
+  .slider .slide.active{
     clip-path: circle(150% at 0 50%);
     transition: 2s;
   }
   
-  .slider, .slider_1 .slide img{
+  .slider .slide img{
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
   
-  .slider, .slider_1 .slide .info1{
+  .slider .slide .info1{
     position: absolute;
     color: #222;
     background: rgba(255, 255, 255, 0.3);
@@ -135,12 +135,12 @@ header .navigation a:hover{
     box-shadow: 0 5px 25px rgb(1 1 1 / 5%);
   }
   
-  .slider, .slider_1 .slide .info1 h2{
+  .slider .slide .info1 h2{
     font-size: 2em;
     font-weight: 800;
   }
   
-  .slider, .slider_1 .slide .info1 p{
+  .slider .slide .info1 p{
     font-size: 1em;
     font-weight: 400;
   }
@@ -154,7 +154,7 @@ header .navigation a:hover{
     transition: opacity 0.5s ease;
   }
   
-  .slider, .slider_1:hover .navigation1{
+  .slider:hover .navigation1{
     opacity: 1;
   }
   
@@ -199,11 +199,11 @@ header .navigation a:hover{
   }
   
   @media (max-width: 900px){
-    .slider, .slider_1, .slider_1{
+    .slider{
       width: 100%;
     }
   
-    .slider, .slider_1 .slide .info1{
+    .slider .slide .info1{
       position: relative;
       width: 80%;
       margin-left: auto;
@@ -212,12 +212,12 @@ header .navigation a:hover{
   }
   
   @media (max-width: 500px){
-    .slider, .slider_1 .slide .info1 h2{
+    .slider .slide .info1 h2{
       font-size: 1.8em;
       line-height: 40px;
     }
   
-    .slider, .slider_1 .slide .info1 p{
+    .slider .slide .info1 p{
       font-size: 0.9em;
     }
   }
@@ -269,13 +269,13 @@ header .imgLOGO img{
   font-family: "Times New Roman", Times, serif;
 
 }
-.slider_1{
+.View_Projetcs{
   position: relative;
-  background: #000116;
-  width: 800px;
-  min-height: 500px;
-  margin: 20px;
-  margin-left: 150px;
-  overflow: hidden;
-  border-radius: 10px;
+  margin-top: 30px;
+  margin-left:  480px;
+
+}
+.View_container{
+  position: relative;
+  margin-left:  100px;
 }
