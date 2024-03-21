@@ -279,3 +279,20 @@ header .imgLOGO img{
   position: relative;
   margin-left:  100px;
 }
+.Discription h1{
+  margin-top: 2%;
+  margin-left: 40% ;
+}
+.Discription ,h2,p{
+  margin-top: 2%;
+  margin-left: 10% ;
+  margin-right: 10% ;
+  font-size: 16px;
+  font-weight: 500;
+  justify-content: center;
+  color: #4c4848;
+  margin-bottom: 40px;
+}
+.Discription{
+  margin: 5%;
+}
