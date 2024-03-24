@@ -282,8 +282,9 @@ header .imgLOGO img{
 .Discription h1{
   margin-top: 2%;
   margin-left: 40% ;
+  color: #4285F4;
 }
-.Discription ,h2,p{
+.Discription .header_discription{
   margin-top: 2%;
   margin-left: 10% ;
   margin-right: 10% ;
@@ -295,4 +296,24 @@ header .imgLOGO img{
 }
 .Discription{
   margin: 5%;
+}
+.Discription ,#para2{
+  margin-top: 2%;
+  margin-left: 5% ;
+  margin-right: 10% ;
+  font-size: 16px;
+  font-weight: 500;
+  justify-content: left;
+  color: #2b2929;
+  margin-bottom: 40px;
+}
+.Discription h2{
+  margin-top: 2%;
+  margin-left: 5% ;
+  margin-right: 10% ;
+  font-size: 16px;
+  font-weight: 500;
+  justify-content: left;
+  color: rgb(127, 146, 255);
+  margin-bottom: 40px;
 }
