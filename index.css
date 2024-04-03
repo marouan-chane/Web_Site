@@ -67,6 +67,7 @@ header .navigation a:hover{
     justify-content: center;
     color: #4c4848;
     margin-bottom: 40px;
+    margin-right: 60px;
 }
 
 .media_icons{
@@ -316,4 +317,149 @@ header .imgLOGO img{
   justify-content: left;
   color: rgb(127, 146, 255);
   margin-bottom: 40px;
+}
+.box{
+  background: #228f9d;
+  position: relative;
+  top: 0;
+  width: 80%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2%;
+}
+.container{
+  width: 85%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.container .spirit{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .spirit .left-side{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+.spirit .left-side::before{
+  content: '';
+  position: absolute;
+  height: 70%;
+  width: 2px;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #afafb6;
+}
+.spirit .left-side .details{
+  margin: 14px;
+  text-align: center;
+}
+.spirit .left-side .details i{
+  font-size: 20px;
+  color: rgb(0, 195, 255);
+  margin-bottom: 10px;
+}
+.spirit .left-side .details .topic{
+  font-size: 15px;
+  font-weight: 500;
+}
+.spirit .left-side .details .text-one,
+.spirit .left-side .details .text-two{
+  font-size: 14px;
+  color: #afafb6;
+}
+.container .spirit .right-side{
+  width: 75%;
+  margin-left: 75px;
+}
+.spirit .right-side .topic-text{
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(0, 195, 255);
+}
+.right-side .input-box{
+  height: 50px;
+  width: 100%;
+  margin: 12px 0;
+}
+.right-side .input-box input,
+.right-side .input-box textarea{
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #F0F1F8;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+.right-side .message-box{
+  min-height: 110px;
+}
+.right-side .input-box textarea{
+  padding-top: 6px;
+}
+.right-side .button{
+  display: inline-block;
+  margin-top: 12px;
+}
+.right-side .button input[type="button"]{
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: rgb(0, 195, 255);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button input[type="button"]:hover{
+  background: rgb(0, 106, 255);
+}
+
+@media (max-width: 950px) {
+  .container{
+    width: 90%;
+    padding: 30px 40px 40px 35px ;
+  }
+  .container .spirit .right-side{
+   width: 75%;
+   margin-left: 55px;
+}
+}
+@media (max-width: 820px) {
+  .container{
+    margin: 40px 0;
+    height: 100%;
+  }
+  .container .spirit{
+    flex-direction: column-reverse;
+  }
+ .container .spirit .left-side{
+   width: 100%;
+   flex-direction: row;
+   margin-top: 40px;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+ .container .spirit .left-side::before{
+   display: none;
+ }
+ .container .spirit .right-side{
+   width: 100%;
+   margin-left: 0;
+ }
 }
