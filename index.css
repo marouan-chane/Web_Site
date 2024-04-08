@@ -2,7 +2,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Poppins";
 }
 section{
     position: relative;
@@ -24,6 +23,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: "Poppins";
 }
 header .logo{
     position: relative;
@@ -52,6 +52,7 @@ header .navigation a:hover{
     height: 1000px;
     padding: 40px 100px;
     background-size:cover;
+    font-family: "Poppins";
 }
 .content .info h2{
     color: #226AB0;
@@ -246,6 +247,7 @@ header .imgLOGO img{
   width: 80%;
   padding: 30px 100px;
   background-color: rgb(178, 183, 185);
+  font-family: "Poppins";
 }
 .Services_Section a{
   text-decoration: none;
@@ -279,6 +281,7 @@ header .imgLOGO img{
 .View_container{
   position: relative;
   margin-left:  100px;
+  font-family: "Poppins";
 }
 .Discription h1{
   margin-top: 2%;
@@ -297,6 +300,7 @@ header .imgLOGO img{
 }
 .Discription{
   margin: 5%;
+  font-family: "Poppins";
 }
 .Discription ,#para2{
   margin-top: 2%;
@@ -376,7 +380,7 @@ header .imgLOGO img{
 }
 .spirit .left-side .details .text-one,
 .spirit .left-side .details .text-two{
-  font-size: 14px;
+  font-size: 12px;
   color: #afafb6;
 }
 .container .spirit .right-side{
@@ -399,7 +403,7 @@ header .imgLOGO img{
   width: 100%;
   border: none;
   outline: none;
-  font-size: 16px;
+  font-size: 13px;
   background: #F0F1F8;
   border-radius: 6px;
   padding: 0 15px;
